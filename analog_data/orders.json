@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "6080261cf9c6472a689c52a3"
+  },
+  "index": "9527001",
+  "carId": "川A11111",
+  "payStatus": "已支付",
+  "parkId": "C1",
+  "inparkway": "A1",
+  "outparkway": "B1",
+  "payway": "在线支付",
+  "money": "¥10.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:17:56",
+  "end": "2021-4-21 21:17:59",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6080263ef9c6472a689c52a4"
+  },
+  "index": "9527002",
+  "carId": "川A11112",
+  "payStatus": "已支付",
+  "parkId": "C1",
+  "inparkway": "A2",
+  "outparkway": "B2",
+  "payway": "现金",
+  "money": "¥10.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:18:44",
+  "end": "2021-4-21 21:18:46",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6080266df9c6472a689c52a5"
+  },
+  "index": "9527003",
+  "carId": "川B11111",
+  "payStatus": "已支付",
+  "parkId": "C1",
+  "inparkway": "A3",
+  "outparkway": "B3",
+  "payway": "在线支付",
+  "money": "¥5.00",
+  "coupon": "0",
+  "start": "2021-4-21 21:18:54",
+  "end": "2021-4-21 21:19:32",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60802694f9c6472a689c52a6"
+  },
+  "index": "9527004",
+  "carId": "川B11112",
+  "payStatus": "已支付",
+  "parkId": "C1",
+  "inparkway": "A4",
+  "outparkway": "B4",
+  "payway": "在线支付",
+  "money": "¥10.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:19:41",
+  "end": "2021-4-21 21:20:5",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608026f4f9c6472a689c52a7"
+  },
+  "index": "9527005",
+  "carId": "川C11111",
+  "payStatus": "已支付",
+  "parkId": "C2",
+  "inparkway": "A1",
+  "outparkway": "B2",
+  "payway": "现金",
+  "money": "¥15.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:20:20",
+  "end": "2021-4-21 21:21:40",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60802713f9c6472a689c52a8"
+  },
+  "index": "9527006",
+  "carId": "川C11112",
+  "payStatus": "已支付",
+  "parkId": "C3",
+  "inparkway": "A3",
+  "outparkway": "B1",
+  "payway": "在线支付",
+  "money": "¥10.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:21:55",
+  "end": "2021-4-21 21:22:18",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60802733f9c6472a689c52a9"
+  },
+  "index": "9527007",
+  "carId": "川D11111",
+  "payStatus": "已支付",
+  "parkId": "C4",
+  "inparkway": "A1",
+  "outparkway": "B4",
+  "payway": "现金",
+  "money": "¥15.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:22:27",
+  "end": "2021-4-21 21:22:46",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6080274ef9c6472a689c52aa"
+  },
+  "index": "9527008",
+  "carId": "川D11112",
+  "payStatus": "已支付",
+  "parkId": "C3",
+  "inparkway": "A1",
+  "outparkway": "B3",
+  "payway": "在线支付",
+  "money": "¥5.00",
+  "coupon": "0",
+  "start": "2021-4-21 21:22:56",
+  "end": "2021-4-21 21:23:19",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60802769f9c6472a689c52ab"
+  },
+  "index": "9527009",
+  "carId": "川E11111",
+  "payStatus": "已支付",
+  "parkId": "C2",
+  "inparkway": "A2",
+  "outparkway": "B3",
+  "payway": "在线支付",
+  "money": "¥5.00",
+  "coupon": "0",
+  "start": "2021-4-21 21:23:26",
+  "end": "2021-4-21 21:23:44",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60802784f9c6472a689c52ac"
+  },
+  "index": "95270010",
+  "carId": "川E11112",
+  "payStatus": "已支付",
+  "parkId": "C4",
+  "inparkway": "A3",
+  "outparkway": "B4",
+  "payway": "现金",
+  "money": "¥10.0",
+  "coupon": "0",
+  "start": "2021-4-21 21:23:53",
+  "end": "2021-4-21 21:24:11",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608027a3f9c6472a689c52ad"
+  },
+  "index": "95270011",
+  "carId": "川F11111",
+  "payStatus": "已支付",
+  "parkId": "C3",
+  "inparkway": "A1",
+  "outparkway": "B3",
+  "payway": "现金",
+  "money": "¥5.00",
+  "coupon": "0",
+  "start": "2021-4-21 21:24:20",
+  "end": "2021-4-21 21:24:41",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a56684e429a1150b93e77"
+  },
+  "index": "95270012",
+  "carId": "川F11112",
+  "payStatus": "未支付",
+  "parkId": "C3",
+  "inparkway": "A2",
+  "outparkway": "B1",
+  "payway": "无",
+  "money": "0",
+  "coupon": "0",
+  "start": "2021-4-29 14:46:45",
+  "end": "2021-4-29 14:47:50",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a56914e429a1150b93e78"
+  },
+  "index": "95270013",
+  "carId": "川G11111",
+  "payStatus": "未支付",
+  "parkId": "C2",
+  "inparkway": "A1",
+  "outparkway": "B4",
+  "payway": "无",
+  "money": "0",
+  "coupon": "0",
+  "start": "2021-4-29 14:47:33",
+  "end": "2021-4-29 17:48:34",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a746a3af19c1470997b50"
+  },
+  "index": "95270014",
+  "carId": "川G11112",
+  "payStatus": "已支付",
+  "parkId": "C2",
+  "inparkway": "A1",
+  "outparkway": "B2",
+  "payway": "在线支付",
+  "money": "¥15.0",
+  "coupon": "0",
+  "start": "2021-4-29 16:54:52",
+  "end": "2021-4-29 17:54:56",
+  "__v": 0
+}]

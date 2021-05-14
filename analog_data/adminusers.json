@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "608429fb88637734cc2d7584"
+  },
+  "avatar": "avatar_1.png",
+  "adminName": "admin",
+  "adminPwd": "b3642e904f1f953cb1f7891eb6ee777e",
+  "adminPhone": "18283170317",
+  "registerTime": {
+    "$date": "2021-04-24T14:23:55.822Z"
+  },
+  "__v": 0
+}]

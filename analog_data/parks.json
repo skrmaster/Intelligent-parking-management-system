@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6087f4cae1c4f7202ca4dc76"
+  },
+  "name": "C1",
+  "status": 0,
+  "count": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6087f4cce1c4f7202ca4dc77"
+  },
+  "name": "C2",
+  "status": 0,
+  "count": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6087f4cfe1c4f7202ca4dc78"
+  },
+  "name": "C3",
+  "status": 0,
+  "count": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6087f4d1e1c4f7202ca4dc79"
+  },
+  "name": "C4",
+  "status": 0,
+  "count": 2,
+  "__v": 0
+}]

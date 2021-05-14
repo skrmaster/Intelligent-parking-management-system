@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+#datacenter {
+    background-color: #f6f6f6;
+}
+
+#user_head {
+    background-color: white;
+}
+
+.five_block_set {
+    color: white;
+    font-weight: 600;
+    height: 118px;
+    width: 225px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.five_block_radius_bg_set_money {
+   
+    background-image: url("../../assets/img/datacenter/home-box01.png");
+}
+
+.five_block_radius_bg_set_parkinglot {
+    background-image: url("../../assets/img/datacenter/home-box02.png");
+}
+
+.five_block_radius_bg_set_member {
+    background-image: url("../../assets/img/datacenter/home-box03.png");
+}
+
+.five_block_radius_bg_set_coupon {
+    background-image: url("../../assets/img/datacenter/home-box04.png");
+}
+
+.five_block_radius_bg_set_visitor {
+    background-image: url("../../assets/img/datacenter/home-box05.png");
+}
+
+.row_three {
+    background-color: white;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.row_two {
+    background-color: white;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.title_line {
+    border-left: solid 5px #78b6f5;
+}
+
+.title_smalll_font_set {
+    font-size: 14px;
+    background-color: #1e2343;
+    cursor: pointer;
+}
+
+.nav_sider {
+    background-color: #272c54;
+    height: 1152px;
+}
+
+.logo_bg {
+    background-color: #62ccf4
+}
+
+.titleset {
+    cursor: pointer;
+    display: block;
+    text-decoration: none!important;
+}

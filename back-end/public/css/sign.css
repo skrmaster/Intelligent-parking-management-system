@@ -1,0 +1,115 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole-set {
+    width: 1536px;
+    height: 758px;
+    background-image: url("/public/img/sign/bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-block-set {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-image: url("/public/img/sign/sign-box.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.input-set {
+    width: 330px;
+    text-indent: .5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 2px rgba(198, 199, 194, .8);
+}
+
+.input-set:focus {
+    outline: 0;
+}
+
+.btn-set {
+    color: rgba(255, 255, 255, .85);
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    width: 137px;
+    height: 48px;
+    border-radius: 25px;
+    background-image: url("/public/img/sign/sign-box02.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* sign up */
+
+.whole-set-up {
+    width: 1536px;
+    height: 758px;
+    background-image: url("/public/img/sign/bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-block-set-up {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-image: url("/public/img/sign/sign-box.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.input-set-up {
+    width: 330px;
+    text-indent: .5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 2px rgba(198, 199, 194, .8);
+}
+
+.input-set-up:focus {
+    outline: 0;
+}
+
+.btn-set-up {
+    color: rgba(255, 255, 255, .85);
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    width: 137px;
+    height: 48px;
+    border-radius: 25px;
+    background-image: url("/public/img/sign/sign-box02.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.onoff {
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+}
+
+.textwarning {
+    color: red;
+}
+
+.texterror {
+    color: red;
+    font-size: 10px;
+}
