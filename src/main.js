@@ -10,20 +10,10 @@ import 'element-ui/lib/theme-chalk/index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import store from './store'
+import utils from './utils/index.js'
 
-Vue.filter('digitsRound', function (val) {
-    return Math.round(val)
-})
-Vue.filter('dateHandle', function (date) {
-    let now = new Date(date)
-    let day = now.getDate()
-    let month = now.getUTCMonth() + 1
-    let year = now.getFullYear()
-    let second = now.getSeconds()
-    let minute = now.getMinutes()
-    let hour = now.getHours()
-    return year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':' + second
-})
+Vue.filter('digitsRound', utils.digitsRound)
+Vue.filter('dateHandle', utils.dateHandle)
 
 const instance = axios.create({
     baseURL: 'http://localhost:3000/',
