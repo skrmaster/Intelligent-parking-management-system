@@ -15,17 +15,6 @@ import utils from './utils/index.js'
 Vue.filter('digitsRound', utils.digitsRound)
 Vue.filter('dateHandle', utils.dateHandle)
 
-const instance = axios.create({
-    baseURL: 'http://localhost:3000/',
-    timeout: 1000,
-    headers: {
-        "Access-Control-Allow-Origin": "*",
-        'Access-Control-Allow-Headers': 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With',
-        "Access-Control-Allow-Methods": "PUT,POST,GET,DELETE,OPTIONS",
-        "Content-Type": "application/json;charset=utf-8"
-    }
-})
-
 Vue.use(Vuex)
 Vue.use(VueAxios, axios)
 Vue.use(Element, { size: 'small', zIndex: 3000 })
@@ -36,12 +25,17 @@ router.beforeResolve((to, from, next) => {
         next()
     } else {
         if (window.sessionStorage.getItem('adminToken') && to.meta.requireAuth) {
-            document.title = to.meta.title 
             next('/admin/datacenter')
         } else {
             next('/')
         }
     }
+})
+router.beforeEach((to, from, next) => {
+    if (to.meta.title) {
+      document.title = to.meta.title
+    }
+    next()
 })
 
 axios.interceptors.request.use(function (config) {
