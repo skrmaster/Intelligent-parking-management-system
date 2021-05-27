@@ -1,6 +1,16 @@
 # Intelligent parking management system
 
-<span style="color: red;font-weight: 700; text-aglin: center;"> It is not perfect</span>
+This project has four functions
+
+> 1、DataCenter:  Data visualization display of vehicle condition in parking lot
+>
+> 2、OrderManage: Addition, deletion and modification of vehicle order
+>
+> 3、memberManage: Member Addition and deletion of member users
+>
+> 4、adminCountMange: Modify account interest, change avatar, delete account
+
+<span style="color: red;font-weight: 700; text-aglin: center;"> Notice: It is not perfect</span>
 
 > This is used to study. 
 >
